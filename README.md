@@ -9,3 +9,7 @@ Cloning a productivity chrome app, [Momentum](https://chrome.google.com/webstore
 - Weather
 - Daily Photo
 - Offline Support
+
+## Reference
+
+[Nomad Coders](https://nomadcoders.co/javascript-for-beginners)
