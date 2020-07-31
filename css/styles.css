@@ -76,7 +76,7 @@ input[type="text"] {
 }
 
 .js-toDoList li {
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 400;
   list-style: none;
 }
@@ -103,5 +103,10 @@ span {
   .js-form,
   .js-greetings {
     font-size: 40px;
+  }
+
+  .js-toDoList li {
+    font-size: 25px;
+    padding: 0 5px;
   }
 }
