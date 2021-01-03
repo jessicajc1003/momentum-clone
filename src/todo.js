@@ -39,6 +39,11 @@ function paintToDo(text) {
   };
   toDos.push(toDoObj);
   saveToDos();
+
+  if (newId > 5) {
+    window.alert("Finish your tasks first!");
+    li.style.display = "none";
+  }
 }
 
 function handleSubmit(event) {
