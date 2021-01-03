@@ -40,9 +40,11 @@ function paintToDo(text) {
   toDos.push(toDoObj);
   saveToDos();
 
-  if (newId > 5) {
+  if (newId >= 6) {
     window.alert("Finish your tasks first!");
     li.style.display = "none";
+  } else {
+    return true;
   }
 }
 
